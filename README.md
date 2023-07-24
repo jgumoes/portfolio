@@ -16,3 +16,6 @@ I am working on a clone of the game 2048. I need a version that counts how many 
 
 ### [Time-Based Event Service](https://github.com/jgumoes/time-based-event-service-specification)
 This is a large and sprawling project to describe and implement a Bluetooth Low Energy service to initiate software events at specific times. A simple example is an LED lamp that works as an alarm clock, that can be programmed using a smartphone.
+
+### [RTC Interface](https://github.com/jgumoes/RTC_interface)
+A little platform-agnostic library to interface with I2C RTC chipsets (currently only supports DS3231). It is set up for unit testing on a PC through CMake and GTest, and will include a script for embedded testing with platformio. This library is intended as a dependency for my Device Time Service implementation, but is useful for other projects like clocks.
